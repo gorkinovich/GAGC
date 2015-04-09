@@ -1,0 +1,12 @@
+## GAGC Ignore Files:
+
+[Bb]in/*.exe
+[Bb]in/*.ilk
+[Bb]in/*.pdb
+[Bb]in/savedata.bin
+GAGC/[Dd]ebug
+GAGC/[Rr]elease
+ipch
+*.opensdf
+*.sdf
+*.suo

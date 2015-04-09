@@ -1,0 +1,11 @@
+syntax: glob
+Bin/*.exe
+Bin/*.ilk
+Bin/*.pdb
+Bin/savedata.bin
+GAGC/Debug
+GAGC/Release
+ipch
+*.opensdf
+*.sdf
+*.suo

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C67704BE-1011-4744-8DC5-3FA13F41993F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GAGC</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <TargetName>gagc_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <TargetName>gagc</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML\include;$(SolutionDir)Source</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML\lib</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML\include;$(SolutionDir)Source</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML\lib</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienEnemy.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienEnemyShot.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienExitState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienGameState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienManager.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienPlayer.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienPlayerShot.cpp" />
+    <ClCompile Include="..\Source\Games\AlienParty\AlienShield.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipBoard.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipEnterNameState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipManager.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipPutShipsState.cpp" />
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipWaitState.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackManager.cpp" />
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersConfigGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersDialogState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersEnterNameState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersGameData.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersLoadState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersManager.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersMiniMax.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersSaveGames.cpp" />
+    <ClCompile Include="..\Source\Games\Checkers\CheckersSaveState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessConfigGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessDialogState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessEnterNameState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessGameData.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessLoadState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessManager.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessMiniMax.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessSaveGames.cpp" />
+    <ClCompile Include="..\Source\Games\Chess\ChessSaveState.cpp" />
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperManager.cpp" />
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperOptionsState.cpp" />
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperSharedState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongManager.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Pong\PongNewGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanAnimatedPuckman.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanAnimation.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanBigDotsLogic.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanDemoLogic.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanFruit.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGameData.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGameLogic.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGenericLogic.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGenericState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGhost.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGhostControl.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGhostController.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanInsertCoinState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMainState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanManager.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanManagerInner.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanManagerScreen.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMaze.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMazeGraph.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMovingEntity.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanPlayer.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanPlayerPuckman.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanPuckmanEntity.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSelectPlayerState.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSequence.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSequencedGhost.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSequencedPuckman.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanTypes.cpp" />
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSharedState.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleManager.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleSharedState.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\Generator.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\Puzzle.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\Solver.cpp" />
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\SolverTable.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiConfigGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiDialogState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiEnterNameState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiGameData.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiLoadState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiManager.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiMiniMax.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiSaveGames.cpp" />
+    <ClCompile Include="..\Source\Games\Reversi\ReversiSaveState.cpp" />
+    <ClCompile Include="..\Source\Games\SaveManager.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeEnterNameState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeGameOverState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeManager.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeNewGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakePlayer.cpp" />
+    <ClCompile Include="..\Source\Games\Snake\SnakeRankingState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesEnterNameState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesExitState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesInnerData.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesIntroState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesManager.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesNewGameState.cpp" />
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesRankingState.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeCreditsState.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeExitState.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeGameMenuState.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeGameState.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeHelpState.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeManager.cpp" />
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeMenuState.cpp" />
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\Menu\AboutState.cpp" />
+    <ClCompile Include="..\Source\Menu\ChooseLangState.cpp" />
+    <ClCompile Include="..\Source\Menu\DesktopState.cpp" />
+    <ClCompile Include="..\Source\Menu\ExitDialogState.cpp" />
+    <ClCompile Include="..\Source\Menu\LogonState.cpp" />
+    <ClCompile Include="..\Source\Menu\MenuManager.cpp" />
+    <ClCompile Include="..\Source\Menu\RetroStartState.cpp" />
+    <ClCompile Include="..\Source\System\AbstractState.cpp" />
+    <ClCompile Include="..\Source\System\AtariPalette.cpp" />
+    <ClCompile Include="..\Source\System\BitmapFont.cpp" />
+    <ClCompile Include="..\Source\System\CoreManager.cpp" />
+    <ClCompile Include="..\Source\System\CoreManagerOS.cpp" />
+    <ClCompile Include="..\Source\System\EgaPalette.cpp" />
+    <ClCompile Include="..\Source\System\File.cpp" />
+    <ClCompile Include="..\Source\System\GUIUtil.cpp" />
+    <ClCompile Include="..\Source\System\Keyboard.cpp" />
+    <ClCompile Include="..\Source\System\MathUtil.cpp" />
+    <ClCompile Include="..\Source\System\Mouse.cpp" />
+    <ClCompile Include="..\Source\System\MusicManager.cpp" />
+    <ClCompile Include="..\Source\System\SimpleLabel.cpp" />
+    <ClCompile Include="..\Source\System\Sound.cpp" />
+    <ClCompile Include="..\Source\System\TextConsole.cpp" />
+    <ClCompile Include="..\Source\System\TextLabel.cpp" />
+    <ClCompile Include="..\Source\System\Texture2D.cpp" />
+    <ClCompile Include="..\Source\System\TexturedButton.cpp" />
+    <ClCompile Include="..\Source\System\TextUtil.cpp" />
+    <ClCompile Include="..\Source\System\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SFML\include\SFML\Audio.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Config.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\BlendMode.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\CircleShape.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Color.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\ConvexShape.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Drawable.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Export.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Font.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Glyph.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Image.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Rect.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RectangleShape.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderStates.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderTarget.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderTexture.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderWindow.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Shader.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Shape.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Sprite.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Text.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Texture.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Transform.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Transformable.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Vertex.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\VertexArray.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Graphics\View.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\OpenGL.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Err.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Export.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Lock.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Mutex.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\NonCopyable.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\String.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Thread.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Time.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Context.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Event.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Export.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Joystick.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Keyboard.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Mouse.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\Window.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\WindowHandle.hpp" />
+    <ClInclude Include="..\SFML\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienAnimation.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienCreditsState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienEnemy.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienEnemyShot.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienExitState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienGameOverState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienGameState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienHelpState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienManager.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienMenuState.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienPlayer.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienPlayerShot.h" />
+    <ClInclude Include="..\Source\Games\AlienParty\AlienShield.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipBoard.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipEnterNameState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipExitState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipGameOverState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipGameState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipHelpState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipManager.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipMenuState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipPutShipsState.h" />
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipWaitState.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackExitState.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackGameState.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackHelpState.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackManager.h" />
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackMenuState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersConfigGameState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersDialogState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersEnterNameState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersGameData.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersGameOverState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersGameState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersHelpState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersLoadState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersManager.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersMenuState.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersMiniMax.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersSaveGames.h" />
+    <ClInclude Include="..\Source\Games\Checkers\CheckersSaveState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessConfigGameState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessDialogState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessEnterNameState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessGameData.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessGameOverState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessGameState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessHelpState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessLoadState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessManager.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessMenuState.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessMiniMax.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessSaveGames.h" />
+    <ClInclude Include="..\Source\Games\Chess\ChessSaveState.h" />
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperExitState.h" />
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperGameState.h" />
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperManager.h" />
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperOptionsState.h" />
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperSharedState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongExitState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongGameOverState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongGameState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongHelpState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongManager.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongMenuState.h" />
+    <ClInclude Include="..\Source\Games\Pong\PongNewGameState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanAnimatedPuckman.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanAnimation.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanBigDotsLogic.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanDemoLogic.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanEntity.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanEnums.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanExitState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanFruit.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameData.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameLogic.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameTimer.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGenericLogic.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGenericState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGhost.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGhostControl.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGhostController.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanInsertCoinState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMainState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanManager.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanManagerInner.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMaze.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMazeGraph.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMovingEntity.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPalette.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPlayer.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPlayerPuckman.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPuckmanEntity.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSelectPlayerState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSequence.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSequencedGhost.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSequencedPuckman.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanShared.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSharedState.h" />
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSprites.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleExitState.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleGameState.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleManager.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleSharedState.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Generator.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Point.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Puzzle.h" />
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Solver.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiConfigGameState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiDialogState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiEnterNameState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiGameData.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiGameOverState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiGameState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiHelpState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiLoadState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiManager.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiMenuState.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiMiniMax.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiSaveGames.h" />
+    <ClInclude Include="..\Source\Games\Reversi\ReversiSaveState.h" />
+    <ClInclude Include="..\Source\Games\SaveManager.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeEnterNameState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeExitState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeGameOverState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeGameState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeHelpState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeManager.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeMenuState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeNewGameState.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakePlayer.h" />
+    <ClInclude Include="..\Source\Games\Snake\SnakeRankingState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesCreditsState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesEnterNameState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesExitState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesGameState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesHelpState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesInnerData.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesIntroState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesManager.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesMenuState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesNewGameState.h" />
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesRankingState.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeCreditsState.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeExitState.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeGameMenuState.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeGameState.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeHelpState.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeManager.h" />
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeMenuState.h" />
+    <ClInclude Include="..\Source\Menu\AboutState.h" />
+    <ClInclude Include="..\Source\Menu\ChooseLangState.h" />
+    <ClInclude Include="..\Source\Menu\DesktopState.h" />
+    <ClInclude Include="..\Source\Menu\ExitDialogState.h" />
+    <ClInclude Include="..\Source\Menu\LogonState.h" />
+    <ClInclude Include="..\Source\Menu\MenuManager.h" />
+    <ClInclude Include="..\Source\Menu\RetroStartState.h" />
+    <ClInclude Include="..\Source\System\AbstractState.h" />
+    <ClInclude Include="..\Source\System\AtariPalette.h" />
+    <ClInclude Include="..\Source\System\BitmapFont.h" />
+    <ClInclude Include="..\Source\System\CoreManager.h" />
+    <ClInclude Include="..\Source\System\EgaPalette.h" />
+    <ClInclude Include="..\Source\System\File.h" />
+    <ClInclude Include="..\Source\System\ForEach.h" />
+    <ClInclude Include="..\Source\System\GUIUtil.h" />
+    <ClInclude Include="..\Source\System\Keyboard.h" />
+    <ClInclude Include="..\Source\System\MathUtil.h" />
+    <ClInclude Include="..\Source\System\Mouse.h" />
+    <ClInclude Include="..\Source\System\MusicManager.h" />
+    <ClInclude Include="..\Source\System\SafeDelete.h" />
+    <ClInclude Include="..\Source\System\SimpleLabel.h" />
+    <ClInclude Include="..\Source\System\Sound.h" />
+    <ClInclude Include="..\Source\System\TextConsole.h" />
+    <ClInclude Include="..\Source\System\TextLabel.h" />
+    <ClInclude Include="..\Source\System\Texture2D.h" />
+    <ClInclude Include="..\Source\System\TexturedButton.h" />
+    <ClInclude Include="..\Source\System\TextUtil.h" />
+    <ClInclude Include="..\Source\System\Timer.h" />
+    <ClInclude Include="..\Source\System\SharedTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SFML\include\SFML\Graphics\Rect.inl" />
+    <None Include="..\SFML\include\SFML\System\Thread.inl" />
+    <None Include="..\SFML\include\SFML\System\ThreadLocalPtr.inl" />
+    <None Include="..\SFML\include\SFML\System\Utf.inl" />
+    <None Include="..\SFML\include\SFML\System\Vector2.inl" />
+    <None Include="..\SFML\include\SFML\System\Vector3.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Games">
+      <UniqueIdentifier>{2da46aa3-a9d0-4c24-b483-9e692afaf266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{458992e7-9804-40c5-9cc4-97d83b51dea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\AlienParty">
+      <UniqueIdentifier>{77dea168-17b4-4c37-b486-338abc3c1514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Battleship">
+      <UniqueIdentifier>{40f9536c-f603-49ed-b6ff-87a56397298e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\TicTacToe">
+      <UniqueIdentifier>{19c43f40-812c-443a-b2ec-80485f8d3f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Blackjack">
+      <UniqueIdentifier>{ad8653e4-4ce8-493b-a6c7-7f6baf793be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Chess">
+      <UniqueIdentifier>{c681a084-ac93-46c6-b49f-079561603dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Minesweeper">
+      <UniqueIdentifier>{3f0b580c-c7fc-4060-b8c4-be1f2cfa54da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puzzle">
+      <UniqueIdentifier>{e1bf95c7-1b8c-49d2-b1af-8ffe027fc7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Snake">
+      <UniqueIdentifier>{62e9f1ff-fd33-44da-95f9-d02522afe5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Tetraminoes">
+      <UniqueIdentifier>{ba3cf7b1-dba1-46e6-8cc8-2e0d8f740d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML">
+      <UniqueIdentifier>{a7f965f7-9b10-4e82-b0ee-135eb947c83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\Window">
+      <UniqueIdentifier>{1599a94b-85d8-4855-85b2-3ecd034309f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\System">
+      <UniqueIdentifier>{52cff265-a310-41ca-bf7f-8748a6b213fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\Graphics">
+      <UniqueIdentifier>{6f2344fe-1eca-4759-a08f-b44de3882abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML\Audio">
+      <UniqueIdentifier>{2f83aeb3-b094-45c3-a605-6dae1848a445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{1a9c8842-0438-4d61-b622-73c898409886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{6c28d86b-a603-472b-9a76-d0b8aae0a1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utils">
+      <UniqueIdentifier>{80283f22-6d8e-447a-9aaa-a7e0d8f72bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Palettes">
+      <UniqueIdentifier>{c7898b70-cd33-40b1-b734-a00185384588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Graphics">
+      <UniqueIdentifier>{64014eaa-d47d-47cb-9471-38eebedd4e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GUI">
+      <UniqueIdentifier>{7eff1907-a7c6-4241-8c8a-464a5d0abe47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Checkers">
+      <UniqueIdentifier>{f07d9add-901b-42ba-8aef-8ca7cbb96b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Pong">
+      <UniqueIdentifier>{bcff21e6-fbe1-4102-903e-d6854e4eb8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman">
+      <UniqueIdentifier>{63db6774-4306-4235-94f7-e140fdeaea55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Snake\States">
+      <UniqueIdentifier>{79000c2c-f680-4062-ad5c-e241aca55dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Snake\Logic">
+      <UniqueIdentifier>{4607c679-799e-4257-af79-cb2a534b2d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\AlienParty\Logic">
+      <UniqueIdentifier>{b21a35cb-6b62-4fab-a41c-db4b19558289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Battleship\Logic">
+      <UniqueIdentifier>{ade027d5-370c-4c7d-a6c7-3d81e6ded800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Blackjack\Logic">
+      <UniqueIdentifier>{e68aef71-e4e6-48be-ab1c-f78a72d27c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Checkers\Logic">
+      <UniqueIdentifier>{19765178-b4db-48fc-a04a-3eb6686c286c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Chess\Logic">
+      <UniqueIdentifier>{c5ad4e1d-b7ff-4379-aeaa-37e6a1b99349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Minesweeper\Logic">
+      <UniqueIdentifier>{91742f18-33e4-46be-9e16-6bde78c37a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Pong\Logic">
+      <UniqueIdentifier>{bcce948f-62f4-4a3c-8904-769aa96015d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman\Logic">
+      <UniqueIdentifier>{5be20f8a-b12a-42a8-b181-3c7d067ec752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puzzle\Logic">
+      <UniqueIdentifier>{5562c8ca-28b4-47c9-b55a-c4642eb7ec83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Tetraminoes\Logic">
+      <UniqueIdentifier>{384c5909-6100-4552-b5da-9f7740ed5a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\TicTacToe\Logic">
+      <UniqueIdentifier>{e827aecd-4a8a-4a14-adbc-0c4f5eab7f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\TicTacToe\States">
+      <UniqueIdentifier>{d1e571bb-e182-4cb0-92a6-7ecae5408016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Tetraminoes\States">
+      <UniqueIdentifier>{f534cda9-46a2-47b8-9568-282498c33e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puzzle\States">
+      <UniqueIdentifier>{6c3917bd-3d4f-4f58-9743-c1a6da9befe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman\States">
+      <UniqueIdentifier>{48b8dfd2-e004-4c42-b9f0-2fc008e31b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Pong\States">
+      <UniqueIdentifier>{e7a840b2-baf7-4d4d-bcc6-347a1c6c9459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Minesweeper\States">
+      <UniqueIdentifier>{3a371c30-c942-4ca1-8e98-bc0b84b12cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Chess\States">
+      <UniqueIdentifier>{97f535f0-1dcc-4fd0-ace1-c5558d126a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Checkers\States">
+      <UniqueIdentifier>{dc5650b2-adfa-4634-8f47-40e32412069c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Blackjack\States">
+      <UniqueIdentifier>{30bb65ff-21a2-4d8a-9b54-d86e69f1c046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Battleship\States">
+      <UniqueIdentifier>{d12d244f-b0f9-4245-a216-e12031be2079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\AlienParty\States">
+      <UniqueIdentifier>{df0889e1-c9ef-440d-9835-c7f9c5276850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Audio">
+      <UniqueIdentifier>{42df3607-5c88-41cc-8617-08e4bd2467a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Reversi">
+      <UniqueIdentifier>{4074fbaf-9c39-4260-ba0b-390741460167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Reversi\Logic">
+      <UniqueIdentifier>{97ce2cab-a6ba-4187-9d9e-c9c68efa7710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Reversi\States">
+      <UniqueIdentifier>{6c33e220-b992-494c-a293-885c9cae85a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puzzle\Solver">
+      <UniqueIdentifier>{d9d4b758-d9bf-4742-9c0f-f17af63feaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{9befc955-2a5e-4680-ac40-870962676d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman\Logic\Data">
+      <UniqueIdentifier>{067e51b5-61bc-4108-9799-ef282237a277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman\Logic\Logic">
+      <UniqueIdentifier>{58714d7c-7587-425b-a076-96913f9d08b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman\Logic\Render">
+      <UniqueIdentifier>{a56464f7-b5c3-49d1-ab23-4b7b6894c3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Puckman\Logic\States">
+      <UniqueIdentifier>{89429175-71bc-45df-9315-9c8cbc422d3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\System\AtariPalette.cpp">
+      <Filter>System\Palettes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\EgaPalette.cpp">
+      <Filter>System\Palettes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Timer.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\System\CoreManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\AbstractState.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Texture2D.cpp">
+      <Filter>System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\BitmapFont.cpp">
+      <Filter>System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\RetroStartState.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\TextConsole.cpp">
+      <Filter>System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\ChooseLangState.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\SimpleLabel.cpp">
+      <Filter>System\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\TextLabel.cpp">
+      <Filter>System\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\MenuManager.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\TexturedButton.cpp">
+      <Filter>System\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\LogonState.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\TextUtil.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\MathUtil.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\DesktopState.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\ExitDialogState.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\GUIUtil.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeCreditsState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeEnterNameState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeExitState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeGameMenuState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeGameOverState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeGameState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeHelpState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeMenuState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeNewGameState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeRankingState.cpp">
+      <Filter>Games\Snake\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakeManager.cpp">
+      <Filter>Games\Snake\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeGameState.cpp">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeManager.cpp">
+      <Filter>Games\TicTacToe\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesGameState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesManager.cpp">
+      <Filter>Games\Tetraminoes\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipManager.cpp">
+      <Filter>Games\Battleship\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienManager.cpp">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienGameState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipGameState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackGameState.cpp">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackManager.cpp">
+      <Filter>Games\Blackjack\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersGameState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersManager.cpp">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessManager.cpp">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperGameState.cpp">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperManager.cpp">
+      <Filter>Games\Minesweeper\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongGameState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongManager.cpp">
+      <Filter>Games\Pong\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanManager.cpp">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleManager.cpp">
+      <Filter>Games\Puzzle\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiManager.cpp">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeMenuState.cpp">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesMenuState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongMenuState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersMenuState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackMenuState.cpp">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipMenuState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienMenuState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Snake\SnakePlayer.cpp">
+      <Filter>Games\Snake\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Sound.cpp">
+      <Filter>System\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\SaveManager.cpp">
+      <Filter>Games</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\MusicManager.cpp">
+      <Filter>System\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongCreditsState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongExitState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongGameMenuState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongGameOverState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongHelpState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Pong\PongNewGameState.cpp">
+      <Filter>Games\Pong\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeCreditsState.cpp">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeExitState.cpp">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeGameMenuState.cpp">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\TicTacToe\TicTacToeHelpState.cpp">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienCreditsState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienExitState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienGameMenuState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienGameOverState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienHelpState.cpp">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipCreditsState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipExitState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipGameMenuState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipGameOverState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipHelpState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackCreditsState.cpp">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackExitState.cpp">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackGameMenuState.cpp">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Blackjack\BlackjackHelpState.cpp">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersCreditsState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersGameOverState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersHelpState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperCreditsState.cpp">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperExitState.cpp">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanCreditsState.cpp">
+      <Filter>Games\Puckman\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanExitState.cpp">
+      <Filter>Games\Puckman\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesCreditsState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesExitState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesGameMenuState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesHelpState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesNewGameState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperSharedState.cpp">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Minesweeper\MinesweeperOptionsState.cpp">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\CoreManagerOS.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleCreditsState.cpp">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleExitState.cpp">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleGameState.cpp">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\PuzzleSharedState.cpp">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\Generator.cpp">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\Puzzle.cpp">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\Solver.cpp">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puzzle\Solver\SolverTable.cpp">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipEnterNameState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipPutShipsState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipBoard.cpp">
+      <Filter>Games\Battleship\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Battleship\BattleshipWaitState.cpp">
+      <Filter>Games\Battleship\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesIntroState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesRankingState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesEnterNameState.cpp">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Tetraminoes\TetraminoesInnerData.cpp">
+      <Filter>Games\Tetraminoes\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\File.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Keyboard.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Mouse.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersLoadState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersSaveState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersConfigGameState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersGameData.cpp">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersSaveGames.cpp">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersDialogState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersEnterNameState.cpp">
+      <Filter>Games\Checkers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Checkers\CheckersMiniMax.cpp">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessCreditsState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessDialogState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessEnterNameState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessGameOverState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessGameState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessHelpState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessLoadState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessMenuState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessSaveState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessConfigGameState.cpp">
+      <Filter>Games\Chess\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessGameData.cpp">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessMiniMax.cpp">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Chess\ChessSaveGames.cpp">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiConfigGameState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiCreditsState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiDialogState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiEnterNameState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiGameOverState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiGameState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiHelpState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiLoadState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiMenuState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiSaveState.cpp">
+      <Filter>Games\Reversi\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiGameData.cpp">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiMiniMax.cpp">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Reversi\ReversiSaveGames.cpp">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSharedState.cpp">
+      <Filter>Games\Puckman\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanTypes.cpp">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMainState.cpp">
+      <Filter>Games\Puckman\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanAnimation.cpp">
+      <Filter>Games\Puckman\Logic\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanFruit.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMovingEntity.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMaze.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanPlayer.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanPuckmanEntity.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanPlayerPuckman.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanAnimatedPuckman.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSequencedPuckman.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSequencedGhost.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGhost.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSequence.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGameData.cpp">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanMazeGraph.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanBigDotsLogic.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGenericLogic.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGhostControl.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGhostController.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanDemoLogic.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGameLogic.cpp">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGenericState.cpp">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanInsertCoinState.cpp">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanGameState.cpp">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanSelectPlayerState.cpp">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanManagerInner.cpp">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Puckman\PuckmanManagerScreen.cpp">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Menu\AboutState.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienEnemy.cpp">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienEnemyShot.cpp">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienPlayer.cpp">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienPlayerShot.cpp">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\AlienParty\AlienShield.cpp">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SFML\include\SFML\Window\Context.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\ContextSettings.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\Event.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\Export.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\GlResource.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\Joystick.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\Keyboard.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\Mouse.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\VideoMode.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\Window.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\WindowHandle.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window\WindowStyle.hpp">
+      <Filter>SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Clock.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Err.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Export.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\InputStream.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Lock.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Mutex.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\NonCopyable.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Sleep.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\String.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Thread.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\ThreadLocal.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Time.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Utf.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Vector2.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System\Vector3.hpp">
+      <Filter>SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Color.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Drawable.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Export.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Font.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Glyph.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Image.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Rect.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Shader.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Shape.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Sprite.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Text.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Texture.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Transform.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Transformable.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\Vertex.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics\View.hpp">
+      <Filter>SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\Export.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\Listener.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\Music.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\Sound.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundSource.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio\SoundStream.hpp">
+      <Filter>SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Audio.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Config.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Graphics.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\OpenGL.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\System.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SFML\include\SFML\Window.hpp">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\EgaPalette.h">
+      <Filter>System\Palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\AtariPalette.h">
+      <Filter>System\Palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\MathUtil.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\SafeDelete.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Timer.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\ForEach.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\CoreManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\AbstractState.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Texture2D.h">
+      <Filter>System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\BitmapFont.h">
+      <Filter>System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\RetroStartState.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\TextConsole.h">
+      <Filter>System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\ChooseLangState.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\SimpleLabel.h">
+      <Filter>System\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\TextLabel.h">
+      <Filter>System\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\MenuManager.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\SharedTypes.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\TexturedButton.h">
+      <Filter>System\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\LogonState.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\TextUtil.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\DesktopState.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\ExitDialogState.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\GUIUtil.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeRankingState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeCreditsState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeEnterNameState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeExitState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeGameMenuState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeGameOverState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeGameState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeHelpState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeMenuState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeNewGameState.h">
+      <Filter>Games\Snake\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakeManager.h">
+      <Filter>Games\Snake\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeGameState.h">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeManager.h">
+      <Filter>Games\TicTacToe\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesGameState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesManager.h">
+      <Filter>Games\Tetraminoes\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipManager.h">
+      <Filter>Games\Battleship\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienManager.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienGameState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipGameState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackGameState.h">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackManager.h">
+      <Filter>Games\Blackjack\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersGameState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersManager.h">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessManager.h">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperGameState.h">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperManager.h">
+      <Filter>Games\Minesweeper\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongGameState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongManager.h">
+      <Filter>Games\Pong\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanManager.h">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleManager.h">
+      <Filter>Games\Puzzle\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiManager.h">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeMenuState.h">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesMenuState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongMenuState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersMenuState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackMenuState.h">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipMenuState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienMenuState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Snake\SnakePlayer.h">
+      <Filter>Games\Snake\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Sound.h">
+      <Filter>System\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\SaveManager.h">
+      <Filter>Games</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\MusicManager.h">
+      <Filter>System\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongCreditsState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongExitState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongGameMenuState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongGameOverState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongHelpState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Pong\PongNewGameState.h">
+      <Filter>Games\Pong\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeCreditsState.h">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeExitState.h">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeGameMenuState.h">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\TicTacToe\TicTacToeHelpState.h">
+      <Filter>Games\TicTacToe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienCreditsState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienExitState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienGameMenuState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienGameOverState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienHelpState.h">
+      <Filter>Games\AlienParty\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipCreditsState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipExitState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipGameMenuState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipGameOverState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipHelpState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackCreditsState.h">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackExitState.h">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackGameMenuState.h">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Blackjack\BlackjackHelpState.h">
+      <Filter>Games\Blackjack\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersCreditsState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersGameOverState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersHelpState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperCreditsState.h">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperExitState.h">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanCreditsState.h">
+      <Filter>Games\Puckman\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanExitState.h">
+      <Filter>Games\Puckman\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesCreditsState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesExitState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesGameMenuState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesHelpState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesNewGameState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperSharedState.h">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Minesweeper\MinesweeperOptionsState.h">
+      <Filter>Games\Minesweeper\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleCreditsState.h">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleExitState.h">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleGameState.h">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\PuzzleSharedState.h">
+      <Filter>Games\Puzzle\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Generator.h">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Point.h">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Puzzle.h">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puzzle\Solver\Solver.h">
+      <Filter>Games\Puzzle\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipEnterNameState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipPutShipsState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipBoard.h">
+      <Filter>Games\Battleship\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Battleship\BattleshipWaitState.h">
+      <Filter>Games\Battleship\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesIntroState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesRankingState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesEnterNameState.h">
+      <Filter>Games\Tetraminoes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Tetraminoes\TetraminoesInnerData.h">
+      <Filter>Games\Tetraminoes\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\File.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Keyboard.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Mouse.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersLoadState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersSaveState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersConfigGameState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersGameData.h">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersSaveGames.h">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersDialogState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersEnterNameState.h">
+      <Filter>Games\Checkers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Checkers\CheckersMiniMax.h">
+      <Filter>Games\Checkers\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessConfigGameState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessCreditsState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessDialogState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessEnterNameState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessGameOverState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessGameState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessHelpState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessLoadState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessMenuState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessSaveState.h">
+      <Filter>Games\Chess\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessGameData.h">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessMiniMax.h">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Chess\ChessSaveGames.h">
+      <Filter>Games\Chess\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiConfigGameState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiCreditsState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiDialogState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiEnterNameState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiGameOverState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiGameState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiHelpState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiLoadState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiMenuState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiSaveState.h">
+      <Filter>Games\Reversi\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiGameData.h">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiMiniMax.h">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Reversi\ReversiSaveGames.h">
+      <Filter>Games\Reversi\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSharedState.h">
+      <Filter>Games\Puckman\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanEnums.h">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMainState.h">
+      <Filter>Games\Puckman\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanEntity.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPalette.h">
+      <Filter>Games\Puckman\Logic\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSprites.h">
+      <Filter>Games\Puckman\Logic\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanAnimation.h">
+      <Filter>Games\Puckman\Logic\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanFruit.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMovingEntity.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMaze.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPlayer.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPuckmanEntity.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanPlayerPuckman.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameTimer.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanAnimatedPuckman.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSequencedPuckman.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSequencedGhost.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGhost.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSequence.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameData.h">
+      <Filter>Games\Puckman\Logic\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanMazeGraph.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanBigDotsLogic.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGenericLogic.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGhostControl.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGhostController.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanDemoLogic.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameLogic.h">
+      <Filter>Games\Puckman\Logic\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGenericState.h">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanInsertCoinState.h">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanSelectPlayerState.h">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanGameState.h">
+      <Filter>Games\Puckman\Logic\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanShared.h">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Puckman\PuckmanManagerInner.h">
+      <Filter>Games\Puckman\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Menu\AboutState.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienEnemy.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienEnemyShot.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienPlayer.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienPlayerShot.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienShield.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\AlienParty\AlienAnimation.h">
+      <Filter>Games\AlienParty\Logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SFML\include\SFML\System\Thread.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\SFML\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\SFML\include\SFML\System\Utf.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\SFML\include\SFML\System\Vector2.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\SFML\include\SFML\System\Vector3.inl">
+      <Filter>SFML\System</Filter>
+    </None>
+    <None Include="..\SFML\include\SFML\Graphics\Rect.inl">
+      <Filter>SFML\Graphics</Filter>
+    </None>
+  </ItemGroup>
+</Project>
