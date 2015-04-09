@@ -1,6 +1,6 @@
-GAGC is a remake of the games I did between 2000-2009, when I was learning to develop videogames. It has been made with Visual Studio 2010 in C++ using the SFML library.
+ï»¿GAGC is a remake of the games I did between 2000-2009, when I was learning to develop videogames. It has been made with Visual Studio 2010 in C++ using the SFML library.
 
-Copyright (c) 2014 Gorka Suárez García
+Copyright (c) 2014 Gorka SuÃ¡rez GarcÃ­a
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
